@@ -1,0 +1,10 @@
+.menu {
+  border-bottom: 1px solid #828282;
+  padding-bottom: 32px;
+}
+
+@media screen and (max-width: 480px) {
+  .menu {
+    display: none;
+  }
+}

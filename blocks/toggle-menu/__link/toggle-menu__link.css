@@ -1,0 +1,22 @@
+.toggle-menu__link {
+    margin-top: 25px;
+    margin-left: 10px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .toggle-menu__link.on span {
+    background-color: transparent;
+  }
+  
+  .toggle-menu__link.on span:before {
+    -webkit-transform: rotate(45deg) translate(-1px, 0);
+    -ms-transform: rotate(45deg) translate(-1px, 0);
+    transform: rotate(45deg) translate(-1px, 0);
+  }
+
+  .toggle-menu__link.on span:after {
+    -webkit-transform: rotate(-45deg) translate(6px, -7px);
+    -ms-transform: rotate(-45deg) translate(6px, -7px);
+    transform: rotate(-45deg) translate(6px, -7px);
+  }

@@ -3,6 +3,7 @@
        url("../fonts/Inter-Regular/Inter-Regular.woff") format("woff");
   font-family: "Inter";
   font-weight: 400;
+  font-display: swap;
 }
 
 @font-face {
@@ -10,6 +11,7 @@
        url("../fonts/Inter-Bold/Inter-Bold.woff") format("woff");
   font-family: "Inter";
   font-weight: 700;
+  font-display: swap;
 }
 
 @font-face {
@@ -17,4 +19,5 @@
        url("../fonts/Inter-Black/Inter-Black.woff") format("woff");
   font-family: "Inter";
   font-weight: 900;
+  font-display: swap;
 }

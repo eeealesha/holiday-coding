@@ -1,0 +1,13 @@
+.toggle-menu {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  align-self: flex-end;
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .toggle-menu {
+    display: block;
+  }
+}
