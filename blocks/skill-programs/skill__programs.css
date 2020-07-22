@@ -1,0 +1,12 @@
+.skill-programs { 
+    display: flex;  
+    justify-content: space-between; 
+  }
+
+@media (max-width: 450px) {
+  .skill-programs { 
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 81px;
+  }
+}

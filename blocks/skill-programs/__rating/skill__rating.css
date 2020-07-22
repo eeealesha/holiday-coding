@@ -1,0 +1,8 @@
+.skill__rating {
+    list-style: none;  
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 9px;
+    margin: 0;
+    padding: 40px 0 0 0;
+  }

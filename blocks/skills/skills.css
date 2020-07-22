@@ -1,0 +1,11 @@
+.skills {
+  max-width: 941px;
+  margin: 0 auto;
+  padding: 91px 0 110px;
+}
+
+@media (max-width: 450px) {
+    .skills {
+        padding: 83px 0 99px;
+      }
+  }
