@@ -1,0 +1,9 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
