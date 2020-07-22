@@ -10,14 +10,29 @@
     <link rel="stylesheet" href="./pages/index.css" />
     <title>Команда №2</title>
 </head>
-  <body>
+
+<body>
     <div class="page">
-      <section class="header">
+        <header class="header" id="home">
             <nav class="menu">
                 <ul class="menu__links list">
-                    <li><a class="menu__link menu__link_active" href="#">Home</a></li>
-                    <li><a class="menu__link" href="#">About me</a></li>
-                    <li><a class="menu__link" href="#">Skills</a></li>
+                    <li><a class="menu__link menu__link_active" href="#home">Home</a></li>
+                    <li><a class="menu__link" href="#about">About me</a></li>
+                    <li><a class="menu__link" href="#skills">Skills</a></li>
+                    <li><a class="menu__link" href="#">Porfolio</a></li>
+                    <li><a class="menu__link" href="#">Contacts</a></li>
+                </ul>
+            </nav>
+
+            <div class="toggle-menu">
+                <a href="#" class="toggle-menu__link"><span class="toggle-menu__span"></span></a>
+            </div>
+
+            <nav class="hidden-menu">
+                <ul class="list">
+                    <li><a class="menu__link menu__link_active" href="#home">Home</a></li>
+                    <li><a class="menu__link" href="#about">About me</a></li>
+                    <li><a class="menu__link" href="#skills">Skills</a></li>
                     <li><a class="menu__link" href="#">Porfolio</a></li>
                     <li><a class="menu__link" href="#">Contacts</a></li>
                 </ul>
@@ -32,83 +47,80 @@
                 </ul>
             </div>
             <img class="header__img" src="./images/intro-main-image-opt.png" alt="фотография Дениса Новикова">
-        </section>
-      
-      <section class="skills" id="skills">
-        <h1 class="skills__title">Skills</h1>
-        <p class="skills__subtitle">I work in such programs as</p>
-        <div class="skill-programs">
-          <div class="skill__program">
-            <img src="../images/PS.svg" alt="Adobe
-              Photoshop" class="skill__icon">
-            <p class="skill__subtitle">Adobe Photoshop</p>
-            <ul class="skill__rating">
-              <li><img src="../images/black_star.svg" alt="star"
-                  class="skill__rating-star"></li>
-              <li><img src="../images/black_star.svg" alt="star"
-                  class="skill__rating-star"></li>
-              <li><img src="../images/black_star.svg" alt="star"
-                  class="skill__rating-star"></li>
-              <li><img src="../images/black_star.svg" alt="star"
-                  class="skill__rating-star"></li>
-              <li><img src="../images/grey_star.svg"
-                  alt="star" class="skill__rating-star"></li>
-            </ul>
-          </div>
-          <div class="skill__program">
-            <img src="../images/AI.svg" alt="Adobe
-              Illustrator" class="skill__icon">
-            <p class="skill__subtitle">Adobe Illustrator</p>
-            <ul class="skill__rating">
-              <li><img src="../images/black_star.svg" alt="star"
-                  class="skill__rating-star"></li>
-              <li><img src="../images/black_star.svg" alt="star"
-                  class="skill__rating-star"></li>
-              <li><img src="../images/black_star.svg" alt="star"
-                  class="skill__rating-star"></li>
-              <li><img src="../images/grey_star.svg"
-                  alt="star" class="skill__rating-star"></li>
-              <li><img src="../images/grey_star.svg"
-                  alt="star" class="skill__rating-star"></li>
-            </ul>
-          </div>
-          <div class="skill__program">
-            <img src="../images/AE.svg" alt="Adobe After
-              Effects" class="skill__icon">
-            <p class="skill__subtitle">Adobe After Effects</p>
-            <ul class="skill__rating">
-              <li><img src="../images/black_star.svg" alt="star"
-                  class="skill__rating-star"></li>
-              <li><img src="../images/black_star.svg" alt="star"
-                  class="skill__rating-star"></li>
-              <li><img src="../images/black_star.svg" alt="star"
-                  class="skill__rating-star"></li>
-              <li><img src="../images/black_star.svg" alt="star"
-                  class="skill__rating-star"></li>
-              <li><img src="../images/grey_star.svg"
-                  alt="star" class="skill__rating-star"></li>
-            </ul>
-          </div>
-          <div class="skill__program">
-            <img src="../images/figma.svg" alt="Figma"
-              class="skill__icon">
-            <p class="skill__subtitle">Figma</p>
-            <ul class="skill__rating">
-              <li><img src="../images/black_star.svg" alt="star"
-                  class="skill__rating-star"></li>
-              <li><img src="../images/black_star.svg" alt="star"
-                  class="skill__rating-star"></li>
-              <li><img src="../images/black_star.svg" alt="star"
-                  class="skill__rating-star"></li>
-              <li><img src="../images/black_star.svg" alt="star"
-                  class="skill__rating-star"></li>
-              <li><img src="../images/grey_star.svg"
-                  alt="star" class="skill__rating-star"></li>
-            </ul>
-          </div>
-        </div>
-      </section>
-    </div>
-  </body>
-</html>
+            <img class="header__img" src="./images/intro-main-img-opt-480px.png" alt="фотография Дениса Новикова">
+        </header>
 
+        <main class="content">
+
+            <section class="about" id="about">
+                <h2 class="about__title">About me</h2>
+                <p class="about__text">Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and
+                    everything
+                    connected with it.</p>
+                <p class="about__text">I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
+                <p class="about__text">Ready to implement excellent projects with wonderful people.</p>
+            </section>
+
+            <section class="skills" id="skills">
+                <h1 class="skills__title">Skills</h1>
+                <p class="skills__subtitle">I work in such programs as</p>
+                <div class="skill-programs">
+                    <div class="skill__program">
+                        <img src="../images/PS.svg" alt="Adobe
+              Photoshop" class="skill__icon">
+                        <p class="skill__subtitle">Adobe Photoshop</p>
+                        <ul class="skill__rating">
+                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
+                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
+                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
+                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
+                            <li><img src="../images/grey_star.svg" alt="star" class="skill__rating-star"></li>
+                        </ul>
+                    </div>
+                    <div class="skill__program">
+                        <img src="../images/AI.svg" alt="Adobe
+              Illustrator" class="skill__icon">
+                        <p class="skill__subtitle">Adobe Illustrator</p>
+                        <ul class="skill__rating">
+                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
+                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
+                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
+                            <li><img src="../images/grey_star.svg" alt="star" class="skill__rating-star"></li>
+                            <li><img src="../images/grey_star.svg" alt="star" class="skill__rating-star"></li>
+                        </ul>
+                    </div>
+                    <div class="skill__program">
+                        <img src="../images/AE.svg" alt="Adobe After
+              Effects" class="skill__icon">
+                        <p class="skill__subtitle">Adobe After Effects</p>
+                        <ul class="skill__rating">
+                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
+                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
+                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
+                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
+                            <li><img src="../images/grey_star.svg" alt="star" class="skill__rating-star"></li>
+                        </ul>
+                    </div>
+                    <div class="skill__program">
+                        <img src="../images/figma.svg" alt="Figma" class="skill__icon">
+                        <p class="skill__subtitle">Figma</p>
+                        <ul class="skill__rating">
+                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
+                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
+                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
+                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
+                            <li><img src="../images/grey_star.svg" alt="star" class="skill__rating-star"></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="./vendor/js/jquery-3.5.1.min.js">
+    </script>
+    <script src="./js/script.js">
+    </script>
+    
+</body>
+
+</html>

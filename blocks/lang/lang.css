@@ -2,3 +2,10 @@
     display: flex;
     transform: rotate(-90deg);
 }
+
+@media screen and (max-width: 480px) {
+    .lang {
+      display: none;
+    }
+  }
+  

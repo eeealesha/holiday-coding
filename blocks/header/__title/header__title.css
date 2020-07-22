@@ -6,3 +6,9 @@
   max-width: 124px;
   font-weight: bold;
 }
+
+@media screen and (max-width: 480px) {
+  .header__title {
+    margin-bottom: 23px;
+  }
+}
