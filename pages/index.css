@@ -1,3 +1,15 @@
 @import url(../vendor/normalize.css);
 
 @import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/skills/skills.css);
+@import url(../blocks//skills/__title/skills__title.css);
+@import url(../blocks/skills/__subtitle/skills__subtitle.css);
+
+
+@import url(../blocks/skill-programs/skill__programs.css);
+@import url(../blocks/skill-programs/__program/skill__program.css);
+@import url(../blocks//skill-programs/__icon/skill__icon.css);
+@import url(../blocks/skill-programs/__subtitle/skill__subtitle.css);
+@import url(../blocks/skill-programs/__rating/skill__rating.css);
+@import url(../blocks/skill-programs//__rating-star/skill__rating-star.css);
