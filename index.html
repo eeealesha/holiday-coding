@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Макет команды №2" />
@@ -9,126 +9,109 @@
     <meta name="author" content="Команда №2" />
     <link rel="stylesheet" href="./pages/index.css" />
     <title>Команда №2</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="page">
-        <header class="header" id="home">
-            <nav class="menu">
-                <ul class="menu__links list">
-                    <li><a class="menu__link menu__link_active" href="#home" onclick="load()">Home</a></li>
-                    <li><a class="menu__link" href="#about" onclick="load(2);return false;">About me</a></li>
-                    <li><a class="menu__link" href="#skills" onclick="load(3);return false;">Skills</a></li>
-                    <li><a class="menu__link" href="#" onclick="load(4);return false;">Porfolio</a></li>
-                    <li><a class="menu__link" href="#" onclick="load(5);return false;">Contacts</a></li>
-                </ul>
-            </nav>
-
-            <div class="toggle-menu">
-                <a href="#" class="toggle-menu__link"><span class="toggle-menu__span"></span></a>
-            </div>
-            <nav class="hidden-menu">
-                <ul class="list">
-                    <li><a class="menu__link menu__link_active" href="#home" onclick="load()">Home</a></li>
-                    <li><a class="menu__link" href="#about" onclick="load(2);return false;">About me</a></li>
-                    <li><a class="menu__link" href="#skills" onclick="load(3);return false;">Skills</a></li>
-                    <li><a class="menu__link" href="#" onclick="load(4);return false;">Porfolio</a></li>
-                    <li><a class="menu__link" href="#" onclick="load(5);return false;">Contacts</a></li>
-                </ul>
-                <ul class="hidden-lang list hidden-lang__list">
-                    <li> <a class="lang__link" href="#">ru</a> </li>
-                    <span class="lang__span"> | </span>
-                    <li> <a class="lang__link lang__link_active" href="#">eng</a> </li>
-                </ul>
-            </nav>
-           
-            <div class="header__wrapper">
-               
-                <h1 class="header__title">Denis Novik</h1>
-                
-                <p class="header__subtitle">UX | UI designer 24 years old, Minsk</p>
-                <ul class="lang list lang__list">
-                    <li> <a class="lang__link" href="#">ru</a> </li>
-                    <span class="lang__span"> | </span>
-                    <li> <a class="lang__link lang__link_active" href="#">eng</a> </li>
-                </ul>
-                
-            </div>
-            <img class="header__img" src="./images/intro-main-image-opt.png" alt="фотография Дениса Новикова">
-            <img class="header__img" src="./images/intro-main-img-opt-480px.png" alt="фотография Дениса Новикова">
-        </header>
-
-        <main class="content">
-
-            <section class="about" id="about">
-                <h2 class="about__title">About me</h2>
-                <p class="about__text">Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and
-                    everything
-                    connected with it.</p>
-                <p class="about__text">I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>
-                <p class="about__text">Ready to implement excellent projects with wonderful people.</p>
-            </section>
-
-            <section class="skills" id="skills">
-                <h1 class="skills__title">Skills</h1>
-                <p class="skills__subtitle">I work in such programs as</p>
-                <div class="skill-programs">
-                    <div class="skill__program">
-                        <img src="../images/PS.svg" alt="Adobe
+      <section class="skills" id="skills">
+        <h2 class="skills__title">Skills</h2>
+        <p class="skills__subtitle">I work in such programs as</p>
+        <div class="skill-programs">
+          <div class="skill__program">
+            <img src="../images/PS.svg" alt="Adobe
               Photoshop" class="skill__icon">
-                        <p class="skill__subtitle">Adobe Photoshop</p>
-                        <ul class="skill__rating">
-                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
-                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
-                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
-                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
-                            <li><img src="../images/grey_star.svg" alt="star" class="skill__rating-star"></li>
-                        </ul>
-                    </div>
-                    <div class="skill__program">
-                        <img src="../images/AI.svg" alt="Adobe
+            <p class="skill__subtitle">Adobe Photoshop</p>
+            <ul class="skill__rating">
+              <li><img src="../images/black_star.svg" alt="star"
+                  class="skill__rating-star"></li>
+              <li><img src="../images/black_star.svg" alt="star"
+                  class="skill__rating-star"></li>
+              <li><img src="../images/black_star.svg" alt="star"
+                  class="skill__rating-star"></li>
+              <li><img src="../images/black_star.svg" alt="star"
+                  class="skill__rating-star"></li>
+              <li><img src="../images/grey_star.svg" alt="star"
+                  class="skill__rating-star"></li>
+            </ul>
+          </div>
+          <div class="skill__program">
+            <img src="../images/AI.svg" alt="Adobe
               Illustrator" class="skill__icon">
-                        <p class="skill__subtitle">Adobe Illustrator</p>
-                        <ul class="skill__rating">
-                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
-                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
-                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
-                            <li><img src="../images/grey_star.svg" alt="star" class="skill__rating-star"></li>
-                            <li><img src="../images/grey_star.svg" alt="star" class="skill__rating-star"></li>
-                        </ul>
-                    </div>
-                    <div class="skill__program">
-                        <img src="../images/AE.svg" alt="Adobe After
+            <p class="skill__subtitle">Adobe Illustrator</p>
+            <ul class="skill__rating">
+              <li><img src="../images/black_star.svg" alt="star"
+                  class="skill__rating-star"></li>
+              <li><img src="../images/black_star.svg" alt="star"
+                  class="skill__rating-star"></li>
+              <li><img src="../images/black_star.svg" alt="star"
+                  class="skill__rating-star"></li>
+              <li><img src="../images/grey_star.svg" alt="star"
+                  class="skill__rating-star"></li>
+              <li><img src="../images/grey_star.svg" alt="star"
+                  class="skill__rating-star"></li>
+            </ul>
+          </div>
+          <div class="skill__program">
+            <img src="../images/AE.svg" alt="Adobe After
               Effects" class="skill__icon">
-                        <p class="skill__subtitle">Adobe After Effects</p>
-                        <ul class="skill__rating">
-                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
-                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
-                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
-                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
-                            <li><img src="../images/grey_star.svg" alt="star" class="skill__rating-star"></li>
-                        </ul>
-                    </div>
-                    <div class="skill__program">
-                        <img src="../images/figma.svg" alt="Figma" class="skill__icon">
-                        <p class="skill__subtitle">Figma</p>
-                        <ul class="skill__rating">
-                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
-                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
-                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
-                            <li><img src="../images/black_star.svg" alt="star" class="skill__rating-star"></li>
-                            <li><img src="../images/grey_star.svg" alt="star" class="skill__rating-star"></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </main>
+            <p class="skill__subtitle">Adobe After Effects</p>
+            <ul class="skill__rating">
+              <li><img src="../images/black_star.svg" alt="star"
+                  class="skill__rating-star"></li>
+              <li><img src="../images/black_star.svg" alt="star"
+                  class="skill__rating-star"></li>
+              <li><img src="../images/black_star.svg" alt="star"
+                  class="skill__rating-star"></li>
+              <li><img src="../images/black_star.svg" alt="star"
+                  class="skill__rating-star"></li>
+              <li><img src="../images/grey_star.svg"
+                  alt="star" class="skill__rating-star"></li>
+            </ul>
+          </div>
+          <div class="skill__program">
+            <img src="../images/figma.svg" alt="Figma"
+              class="skill__icon">
+            <p class="skill__subtitle">Figma</p>
+            <ul class="skill__rating">
+              <li><img src="../images/black_star.svg" alt="star"
+                  class="skill__rating-star"></li>
+              <li><img src="../images/black_star.svg" alt="star"
+                  class="skill__rating-star"></li>
+              <li><img src="../images/black_star.svg" alt="star"
+                  class="skill__rating-star"></li>
+              <li><img src="../images/black_star.svg" alt="star"
+                  class="skill__rating-star"></li>
+              <li><img src="../images/grey_star.svg"
+                  alt="star" class="skill__rating-star"></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <h2 class="portfolio__title">Portfolio</h2>
+        <ul class="portfolio__list">
+          <li>
+            <img src="../images/fash-store.jpg" alt="Online fashion store"
+              class="portfolio__image">
+            <a href="#" class="portfolio__link">Online fashion store - Homepage</a>
+          </li>
+          <li>
+            <img src="../images/reeb-store.jpg" alt="Reebok store"
+              class="portfolio__image">
+            <a href="#" class="portfolio__link">Reebok Store - Concept</a></li>
+          <li>
+            <img src="../images/braun-page.jpg" alt="Braun lending page"
+              class="portfolio__image">
+            <a href="#" class="portfolio__link">Braun Landing Page - Concept</a>
+          </li>
+        </ul>
+      </section>
     </div>
     <script src="./vendor/js/jquery-3.5.1.min.js">
     </script>
     <script src="./js/script.js">
     </script>
-    
-</body>
+
+  </body>
 
 </html>
