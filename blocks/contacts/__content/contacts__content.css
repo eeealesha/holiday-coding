@@ -1,16 +1,23 @@
 .contacts__content {
-    margin: 0;
-    font-size: 14px;
-    line-height: 17px;
-    color: #828282;
-    text-align: center;
-    padding: 46px 0 123px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+  text-align: center;
+  padding-bottom: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+}
+
+.contacts__content + .contacts__content {
+  padding-bottom: 90px;
+  padding-top: 0;
 }
 
 @media (max-width: 480px) {
-    .contacts__content  {
-        padding: 49px 0 90px;
-        font-size: 18px;
-        line-height: 22px;
-      }
+  .contacts__content {
+    font-size: 18px;
+    line-height: 22px;
   }
+}

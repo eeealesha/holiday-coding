@@ -1,0 +1,7 @@
+.contacts__link {
+    transition: opacity 1s ease-in-out;
+}
+
+.contacts__link:hover {
+    opacity: 0.6;
+}
