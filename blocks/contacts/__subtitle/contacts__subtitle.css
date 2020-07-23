@@ -1,0 +1,15 @@
+.contacts__subtitle {
+    max-width: 260px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  @media (max-width: 480px) {
+    .contacts__subtitle {
+        padding-top: 27px;
+      }
+  }

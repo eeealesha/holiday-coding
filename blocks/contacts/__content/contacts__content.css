@@ -1,0 +1,16 @@
+.contacts__content {
+    margin: 0;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    text-align: center;
+    padding: 46px 0 123px;
+}
+
+@media (max-width: 480px) {
+    .contacts__content  {
+        padding: 49px 0 90px;
+        font-size: 18px;
+        line-height: 22px;
+      }
+  }
