@@ -1,3 +1,5 @@
-# holiday-coding
-## Group #2 holiday project 
-### https://eeealesha.github.io/holiday-coding/index.html
+# "Кодинг на каникулах"
+## Проект команды № 2 
+### Ссылка на проект: https://eeealesha.github.io/holiday-coding/index.html
+#### Авторы: Гаврилов Алексей, Гайдук Евгений, Исаичева Татьяна. 
+##### Использовались такие технологии как: html, css, отзывчивая верстка, jquery, javs script.  
