@@ -7,4 +7,10 @@
     text-align: center;
     display: block;
     padding-top: 45px;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+.portfolio__link:hover {
+  opacity: 0.6;
 }

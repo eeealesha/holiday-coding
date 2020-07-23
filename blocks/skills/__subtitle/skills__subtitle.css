@@ -3,6 +3,7 @@
     line-height: 1.2;
     text-align: center;
     padding-bottom: 83px;
+    margin: 0;
   }
 
   @media (max-width: 480px) {
