@@ -9,6 +9,11 @@
     padding: .5em 2em;
     font-weight: bold;
     text-align: center;
+    transition: opacity 1s ease-in-out;
+}
+
+.contacts__button:hover {
+    opacity: 0.6;
 }
 
 @media (max-width: 480px) {
