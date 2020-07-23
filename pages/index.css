@@ -19,6 +19,9 @@
 
 @import url(../blocks/hidden-menu/hidden-menu.css);
 
+@import url(../blocks/hidden-lang/hidden-lang.css);
+@import url(../blocks/hidden-lang/__list/hidden-lang__list.css);
+
 @import url(../blocks/toggle-menu/toggle-menu.css);
 @import url(../blocks/toggle-menu/__span/toggle-menu__span.css);
 @import url(../blocks/toggle-menu/__link/toggle-menu__link.css);

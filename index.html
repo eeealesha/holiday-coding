@@ -16,35 +16,43 @@
         <header class="header" id="home">
             <nav class="menu">
                 <ul class="menu__links list">
-                    <li><a class="menu__link menu__link_active" href="#home">Home</a></li>
-                    <li><a class="menu__link" href="#about">About me</a></li>
-                    <li><a class="menu__link" href="#skills">Skills</a></li>
-                    <li><a class="menu__link" href="#">Porfolio</a></li>
-                    <li><a class="menu__link" href="#">Contacts</a></li>
+                    <li><a class="menu__link menu__link_active" href="#home" onclick="load()">Home</a></li>
+                    <li><a class="menu__link" href="#about" onclick="load(2);return false;">About me</a></li>
+                    <li><a class="menu__link" href="#skills" onclick="load(3);return false;">Skills</a></li>
+                    <li><a class="menu__link" href="#" onclick="load(4);return false;">Porfolio</a></li>
+                    <li><a class="menu__link" href="#" onclick="load(5);return false;">Contacts</a></li>
                 </ul>
             </nav>
 
             <div class="toggle-menu">
                 <a href="#" class="toggle-menu__link"><span class="toggle-menu__span"></span></a>
             </div>
-
             <nav class="hidden-menu">
                 <ul class="list">
-                    <li><a class="menu__link menu__link_active" href="#home">Home</a></li>
-                    <li><a class="menu__link" href="#about">About me</a></li>
-                    <li><a class="menu__link" href="#skills">Skills</a></li>
-                    <li><a class="menu__link" href="#">Porfolio</a></li>
-                    <li><a class="menu__link" href="#">Contacts</a></li>
+                    <li><a class="menu__link menu__link_active" href="#home" onclick="load()">Home</a></li>
+                    <li><a class="menu__link" href="#about" onclick="load(2);return false;">About me</a></li>
+                    <li><a class="menu__link" href="#skills" onclick="load(3);return false;">Skills</a></li>
+                    <li><a class="menu__link" href="#" onclick="load(4);return false;">Porfolio</a></li>
+                    <li><a class="menu__link" href="#" onclick="load(5);return false;">Contacts</a></li>
+                </ul>
+                <ul class="hidden-lang list hidden-lang__list">
+                    <li> <a class="lang__link" href="#">ru</a> </li>
+                    <span class="lang__span"> | </span>
+                    <li> <a class="lang__link lang__link_active" href="#">eng</a> </li>
                 </ul>
             </nav>
+           
             <div class="header__wrapper">
+               
                 <h1 class="header__title">Denis Novik</h1>
+                
                 <p class="header__subtitle">UX | UI designer 24 years old, Minsk</p>
                 <ul class="lang list lang__list">
                     <li> <a class="lang__link" href="#">ru</a> </li>
                     <span class="lang__span"> | </span>
                     <li> <a class="lang__link lang__link_active" href="#">eng</a> </li>
                 </ul>
+                
             </div>
             <img class="header__img" src="./images/intro-main-image-opt.png" alt="фотография Дениса Новикова">
             <img class="header__img" src="./images/intro-main-img-opt-480px.png" alt="фотография Дениса Новикова">
