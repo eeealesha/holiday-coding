@@ -1,12 +1,12 @@
 .skills__title {
-    font-weight: 700;
+    font-weight: 900;
     font-size: 34px;
     line-height: 1.2;
     text-align: center;
     padding-bottom: 69px;
   }
 
-  @media (max-width: 450px) {
+  @media (max-width: 480px) {
     .skills__title {     
       padding-bottom: 50px;
     }
