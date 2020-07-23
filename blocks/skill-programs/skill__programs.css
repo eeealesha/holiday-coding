@@ -3,7 +3,7 @@
     justify-content: space-between; 
   }
 
-@media (max-width: 480px) {
+@media (max-width: 450px) {
   .skill-programs { 
     display: grid;
     grid-template-columns: 1fr;

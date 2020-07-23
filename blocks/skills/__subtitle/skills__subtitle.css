@@ -5,7 +5,7 @@
     padding-bottom: 83px;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 450px) {
     .skills__subtitle {
       padding-bottom: 71px;
     }
