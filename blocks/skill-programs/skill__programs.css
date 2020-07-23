@@ -1,11 +1,10 @@
 .skill-programs { 
-    display: flex;  
-    justify-content: space-between; 
+    display: grid;    
+    grid-template-columns: repeat(4, 1fr);
   }
 
-@media (max-width: 450px) {
-  .skill-programs { 
-    display: grid;
+@media (max-width: 600px) {
+  .skill-programs {    
     grid-template-columns: 1fr;
     row-gap: 81px;
   }
