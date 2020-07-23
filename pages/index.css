@@ -12,4 +12,10 @@
 @import url(../blocks//skill-programs/__icon/skill__icon.css);
 @import url(../blocks/skill-programs/__subtitle/skill__subtitle.css);
 @import url(../blocks/skill-programs/__rating/skill__rating.css);
-@import url(../blocks/skill-programs//__rating-star/skill__rating-star.css);
+@import url(../blocks/skill-programs/__rating-star/skill__rating-star.css);
+
+@import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/portfolio/__title/portfolio__title.css);
+@import url(../blocks/portfolio/__list/portfolio__list.css);
+@import url(../blocks/portfolio/__image/portfolio__image.css);
+@import url(../blocks/portfolio/__link/portfolio__link.css);
